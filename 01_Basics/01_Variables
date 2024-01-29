@@ -1,0 +1,15 @@
+let accountName = "Javed Khan";
+let accountNumber = 12312;
+console.info("Test");
+console.log("Test");
+console.time();
+console.table([accountName, accountNumber]);
+
+//var issue: var doesn't know the block. hence if we change the value in a block, it will change the global value.
+console.log("hsjdfs");
+console.log("sdsds");
+if (true) {
+  console.log(1221);
+  console.log("1212");
+  console.log(12212);
+}
